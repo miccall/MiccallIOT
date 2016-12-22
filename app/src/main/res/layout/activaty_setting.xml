@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/et_ip"
+        android:hint="ip: 192.168.1.33"
+        android:background="@drawable/pic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <EditText
+    android:layout_marginTop="10dp"
+    android:id="@+id/et_port"
+    android:hint="port: 3030 "
+    android:background="@drawable/pic_bg"
+    android:layout_width="match_parent"
+    android:layout_height="35dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/wendu_baojing"
+        android:hint="温度阈值: 100"
+        android:background="@drawable/pic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/shidu_baojing"
+        android:hint="湿度阈值: 100"
+        android:background="@drawable/pic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/yanwu_baojing"
+        android:hint="烟雾阈值: 100"
+        android:background="@drawable/pic_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+    <Button
+        android:onClick="save"
+        android:id="@+id/bt_save"
+        android:text="save"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
